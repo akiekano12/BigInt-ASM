@@ -9,7 +9,7 @@ Demonstrates the usage of registers for arithmetic operations.
 Supports input of large numbers and produces the correct sum.
 To run the program:
 
-Clone the repository from GitHub: git clone https://github.com/akiekano12/BigInt-ASM.git
+> Clone the repository from GitHub: git clone https://github.com/akiekano12/BigInt-ASM.git
 Navigate to the project directory: cd BigInt-ASM
 Assemble the source code using NASM: nasm -f elf64 main.asm -o main.o
 Link the object file and create the executable: ld -o BigInt main.o -lc
